@@ -17,4 +17,9 @@ public class HomeController {
     public String createUser(){
         return "User is created";
     }
+
+    @RequestMapping("/deleteUser")
+    public String deleteUser(){
+        return "User deleted";
+    }
 }
